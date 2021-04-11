@@ -10,9 +10,9 @@ header {
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
-  border-color: oldlace;
   height: 7rem;
-  box-shadow: 0 8px 0px 0px #000;
+  box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 68%);
+  min-width: 660px;
 }
 
 .home1 {
@@ -25,7 +25,6 @@ header {
   padding-right: 5rem;
   text-decoration: none;
   color: rgb(255, 0, 0);
-  display: inline-flex;
 }
 .box {
   margin-top: -1rem;
@@ -309,8 +308,15 @@ h1 {
   clear: both;
   text-align: center;
 }
+#send {
+  color: white;
+  background-color: rgb(161, 20, 20);
+  padding: 0.5rem;
+  margin-left: 41rem;
+  border: none;
+}
 @media screen and (max-width: 768px) {
-  .oppo .content5 .content6 .content7 .rect ..value1 {
+  .oppo .content5 .content6 .content7 .rect .value1 {
     flex-direction: column;
   }
 }
